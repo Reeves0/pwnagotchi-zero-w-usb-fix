@@ -1,0 +1,17 @@
+# Never commit disk images or archives (huge, and not source)
+*.img
+*.img.xz
+*.img.gz
+*.zip
+*.xz
+*.gz
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Never commit secrets
+*.token
+*token*
+.env
